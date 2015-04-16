@@ -1,3 +1,4 @@
 .idea/
-JavaConcurrencyInPractice.iml
 .gradle/
+build/
+JavaConcurrencyInPractice.iml

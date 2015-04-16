@@ -7,8 +7,10 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile 'org.apache.logging.log4j:log4j-core:2.2'
+    compile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.2'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.2'
+    compile 'org.slf4j:slf4j-api:1.7.12'
 }
 
 sourceSets {
